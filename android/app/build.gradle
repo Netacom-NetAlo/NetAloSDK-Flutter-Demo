@@ -37,12 +37,14 @@ android {
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId "com.netacom.flutter_sdk"
-        minSdkVersion 21
+        minSdkVersion 23
         targetSdkVersion 30
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
-
+    buildFeatures {
+        dataBinding true
+    }
     buildTypes {
         release {
             // TODO: Add your own signing config for the release build.
@@ -83,4 +85,6 @@ dependencies {
     releaseImplementation "vn.netacom:NetAloFull:$sdkNetAloVersion" //(for production)
     implementation "com.google.dagger:hilt-android:$hiltVersion"
     kapt "com.google.dagger:hilt-android-compiler:$hiltVersion"
+    implementation("androidx.hilt:hilt-work:1.0.0")
+    kapt("androidx.hilt:hilt-compiler:1.0.0")
 }

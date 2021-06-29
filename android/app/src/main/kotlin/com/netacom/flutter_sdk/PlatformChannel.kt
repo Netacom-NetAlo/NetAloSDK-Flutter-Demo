@@ -8,7 +8,7 @@ class PlatformChannel {
     private lateinit var sendChannel: MethodChannel
     private val sendChannelName = "callbacks"
     lateinit var receiveChannel: MethodChannel
-    private val receiveChannelName = "vn.netacom.sdk/flutter_channel"
+    private val receiveChannelName = "com.netacom.flutter_sdk/flutter_channel"
 
     companion object {
         var instance = PlatformChannel()
