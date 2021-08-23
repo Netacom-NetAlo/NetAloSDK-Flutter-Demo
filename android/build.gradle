@@ -1,8 +1,8 @@
 buildscript {
     ext {
         kotlinVersion = '1.5.10'
-        hiltVersion = "2.37"
-        sdkNetAloVersion = "1.6.13"
+        hiltVersion = "2.38.1"
+        sdkNetAloVersion = "2.0.06"
     }
     repositories {
         google()

@@ -3,6 +3,7 @@ package com.netacom.flutter_sdk
 import com.netacom.lite.entity.ui.user.NeUser
 import io.flutter.plugin.common.BinaryMessenger
 import io.flutter.plugin.common.MethodChannel
+import vn.netacom.lomo.callback.OnCheckFriendListener
 
 class PlatformChannel {
     private lateinit var sendChannel: MethodChannel
@@ -29,5 +30,31 @@ class PlatformChannel {
 
     fun sendEventNetAloChatPushNotification(data: NeUser) {
         sendChannel.invokeMethod("netAloChatPushNotification", data)
+    }
+
+    fun sendEventDeepLink(url:String?){
+        sendChannel.invokeMethod("sendEventDeepLink", url)
+    }
+
+    fun sendEventHandleLinkFromNetAlo(url:String?){
+        sendChannel.invokeMethod("sendEventHandleLinkFromNetAlo", url)
+    }
+
+    fun sendEventCheckIsFriend(targetNetAloId: Long? = 0L, callBack: OnCheckFriendListener){
+        sendChannel.invokeMethod("checkIsFriend", targetNetAloId, object : MethodChannel.Result {
+            override fun success(result: Any?) {
+                result?.let {
+                    callBack.onChecked(it as Boolean)
+                }
+            }
+
+            override fun error(errorCode: String?, errorMessage: String?, errorDetails: Any?) {
+                callBack.onChecked(false)
+            }
+
+            override fun notImplemented() {
+            }
+
+        })
     }
 }

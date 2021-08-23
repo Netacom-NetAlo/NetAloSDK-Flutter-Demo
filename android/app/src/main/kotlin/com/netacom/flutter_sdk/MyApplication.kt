@@ -5,6 +5,9 @@ import androidx.work.Configuration
 import com.netacom.full.ui.sdk.NetAloSDK
 import com.netacom.full.ui.sdk.NetAloSdkCore
 import com.netacom.lite.entity.ui.theme.NeTheme
+import com.netacom.lite.sdk.AccountKey
+import com.netacom.lite.sdk.AppID
+import com.netacom.lite.sdk.AppKey
 import com.netacom.lite.sdk.SdkConfig
 import dagger.hilt.android.HiltAndroidApp
 import io.flutter.app.FlutterApplication
@@ -23,9 +26,9 @@ class MyApplication : FlutterApplication(), Configuration.Provider {
             .build()
 
     private val sdkConfig = SdkConfig(
-        appId = 2,
-        appKey = "lomokey",
-        accountKey = "adminkey",
+        appId = AppID.NETALO_DEV,
+        appKey = AppKey.NETALO_DEV,
+        accountKey = AccountKey.NETALO_DEV,
         isSyncContact = false,
         hidePhone = true,
         hideCreateGroup = true,

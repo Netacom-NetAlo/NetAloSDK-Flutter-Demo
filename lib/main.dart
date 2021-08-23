@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_sdk/net_alo_user.dart';
@@ -13,15 +15,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter NetAlo SDK Demo',
       theme: ThemeData(
-        // This is the theme of your application.
-        //
-        // Try running your application with "flutter run". You'll see the
-        // application has a blue toolbar. Then, without quitting the app, try
-        // changing the primarySwatch below to Colors.green and then invoke
-        // "hot reload" (press "r" in the console where you ran "flutter run",
-        // or simply save your changes to "hot reload" in a Flutter IDE).
-        // Notice that the counter didn't reset back to zero; the application
-        // is not restarted.
         primarySwatch: Colors.blue,
       ),
       home: MyHomePage(),
@@ -29,8 +22,24 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class MyHomePage extends StatefulWidget {
+enum GalleryType { all, image, video }
 
+extension GalleryTypeExt on GalleryType {
+  int get type {
+    switch (this) {
+      case GalleryType.all:
+        return 0;
+      case GalleryType.image:
+        return 1;
+      case GalleryType.video:
+        return 2;
+      default:
+        return 1;
+    }
+  }
+}
+
+class MyHomePage extends StatefulWidget {
   @override
   _MyHomePageState createState() => _MyHomePageState();
 }
@@ -38,18 +47,21 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
   static const platform = const MethodChannel('com.netacom.flutter_sdk/flutter_channel');
-  void _incrementCounter() async {
+
+  void openChatUser() async {
     await platform.invokeMethod(
         "setNetaloUser",
         NetAloUser(
-            id: "281474977755108",
-            token: "9a0c2c258c4edb30ce63fa4c56070a681464e5d8",
-            avatar: "a6hIg_MRfWKSPeAXkkxAjA6coypt1y6j1KtJAkbd9k_E2w46wZuU4mbhNvA4Uzdl",
-            username: "XX",
-            phone: "+84969143732",
-            isAdmin: false)
+                id: "281474977755108",
+                token: "9a0c2c258c4edb30ce63fa4c56070a681464e5d8",
+                avatar: "a6hIg_MRfWKSPeAXkkxAjA6coypt1y6j1KtJAkbd9k_E2w46wZuU4mbhNvA4Uzdl",
+                username: "XX",
+                phone: "+84969143732",
+                isAdmin: false)
             .toJson());
+  }
 
+  void openListConversation() async {
     await platform.invokeMethod(
         "openChatConversation",
         NetAloUser(
@@ -62,50 +74,31 @@ class _MyHomePageState extends State<MyHomePage> {
             .toJson());
   }
 
+  void openGallery() async {
+    final result = await platform.invokeMethod("pickImages", {
+      "maxImages": 6,
+      "type": 0,
+      "autoDismissOnMaxSelections": false
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
-    // This method is rerun every time setState is called, for instance as done
-    // by the _incrementCounter method above.
-    //
-    // The Flutter framework has been optimized to make rerunning build methods
-    // fast, so that you can just rebuild anything that needs updating rather
-    // than having to individually change instances of widgets.
     return Scaffold(
       body: Center(
-        // Center is a layout widget. It takes a single child and positions it
-        // in the middle of the parent.
         child: Column(
-          // Column is also a layout widget. It takes a list of children and
-          // arranges them vertically. By default, it sizes itself to fit its
-          // children horizontally, and tries to be as tall as its parent.
-          //
-          // Invoke "debug painting" (press "p" in the console, choose the
-          // "Toggle Debug Paint" action from the Flutter Inspector in Android
-          // Studio, or the "Toggle Debug Paint" command in Visual Studio Code)
-          // to see the wireframe for each widget.
-          //
-          // Column has various properties to control how it sizes itself and
-          // how it positions its children. Here we use mainAxisAlignment to
-          // center the children vertically; the main axis here is the vertical
-          // axis because Columns are vertical (the cross axis would be
-          // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'You have pushed the button this many times:',
+              'Demo SDK Flutter',
+             style: TextStyle(fontSize: 28, fontWeight: FontWeight.w800),
             ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
-            ),
+            ElevatedButton(onPressed: () => openListConversation(), child: Text('Open Chat Conversation', style: TextStyle(fontSize: 22, fontWeight: FontWeight.w800),)),
+            ElevatedButton(onPressed: () => openChatUser(), child: Text('Open Chat User', style: TextStyle(fontSize: 22, fontWeight: FontWeight.w800),)),
+            ElevatedButton(onPressed: () => openGallery(), child: Text('Open Gallery', style: TextStyle(fontSize: 22, fontWeight: FontWeight.w800),))
           ],
         ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      )// This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }
