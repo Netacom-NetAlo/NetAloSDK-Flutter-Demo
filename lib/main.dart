@@ -45,19 +45,37 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
   static const platform = const MethodChannel('com.netacom.flutter_sdk/flutter_channel');
 
-  void openChatUser() async {
+  @override
+  void initState() {
+    super.initState();
+    initUser();
+  }
+
+  void initUser() async {
     await platform.invokeMethod(
         "setNetaloUser",
         NetAloUser(
-                id: "281474977755108",
-                token: "9a0c2c258c4edb30ce63fa4c56070a681464e5d8",
-                avatar: "a6hIg_MRfWKSPeAXkkxAjA6coypt1y6j1KtJAkbd9k_E2w46wZuU4mbhNvA4Uzdl",
-                username: "XX",
-                phone: "+84969143732",
-                isAdmin: false)
+            id: "3940649673949239",
+            token: "1feb80f88c62f32e5cf79e9d5b23452d2dbbfaa9",
+            avatar: "a6hIg_MRfWKSPeAXkkxAjA6coypt1y6j1KtJAkbd9k_E2w46wZuU4mbhNvA4Uzdl",
+            username: "XX",
+            phone: "+84969143732",
+            isAdmin: false)
+            .toJson());
+  }
+
+  void openChatUser() async {
+    await platform.invokeMethod(
+        "openChatWithUser",
+        NetAloUser(
+            id: "281474977755108",
+            token: "9a0c2c258c4edb30ce63fa4c56070a681464e5d8",
+            avatar: "a6hIg_MRfWKSPeAXkkxAjA6coypt1y6j1KtJAkbd9k_E2w46wZuU4mbhNvA4Uzdl",
+            username: "XX",
+            phone: "+84969143732",
+            isAdmin: false)
             .toJson());
   }
 
@@ -65,12 +83,12 @@ class _MyHomePageState extends State<MyHomePage> {
     await platform.invokeMethod(
         "openChatConversation",
         NetAloUser(
-                id: "281474977755108",
-                token: "9a0c2c258c4edb30ce63fa4c56070a681464e5d8",
-                avatar: "a6hIg_MRfWKSPeAXkkxAjA6coypt1y6j1KtJAkbd9k_E2w46wZuU4mbhNvA4Uzdl",
-                username: "XX",
-                phone: "+84969143732",
-                isAdmin: false)
+            id: "281474977755108",
+            token: "9a0c2c258c4edb30ce63fa4c56070a681464e5d8",
+            avatar: "a6hIg_MRfWKSPeAXkkxAjA6coypt1y6j1KtJAkbd9k_E2w46wZuU4mbhNvA4Uzdl",
+            username: "XX",
+            phone: "+84969143732",
+            isAdmin: false)
             .toJson());
   }
 

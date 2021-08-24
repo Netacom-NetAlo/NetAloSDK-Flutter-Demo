@@ -26,9 +26,9 @@ class MyApplication : FlutterApplication(), Configuration.Provider {
             .build()
 
     private val sdkConfig = SdkConfig(
-        appId = AppID.NETALO_DEV,
-        appKey = AppKey.NETALO_DEV,
-        accountKey = AccountKey.NETALO_DEV,
+        appId = 14,
+        appKey = "87XuVRwP71uljnlK3pdxKhWTvPQEXCJC",
+        accountKey = "87XuVRwP71uljnlK3pdxKhWTvPQEXCJC",
         isSyncContact = false,
         hidePhone = true,
         hideCreateGroup = true,

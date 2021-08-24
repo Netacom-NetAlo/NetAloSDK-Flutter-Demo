@@ -11,7 +11,7 @@
 
    <application
        android:name=".MyApplication"
-        android:label="flutter_sdk"
+        android:label="NetAloSdk"
         android:icon="@mipmap/ic_launcher"
        android:requestLegacyExternalStorage="true"
        android:usesCleartextTraffic="true">
