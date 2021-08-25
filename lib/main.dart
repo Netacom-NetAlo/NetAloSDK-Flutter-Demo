@@ -57,11 +57,11 @@ class _MyHomePageState extends State<MyHomePage> {
     await platform.invokeMethod(
         "setNetaloUser",
         NetAloUser(
-            id: "3940649673949239",
-            token: "1feb80f88c62f32e5cf79e9d5b23452d2dbbfaa9",
+            id: "3940649674873365",
+            token: "88087fd66bbd63bc0c4ab21ee59b7421a9409af1",
             avatar: "a6hIg_MRfWKSPeAXkkxAjA6coypt1y6j1KtJAkbd9k_E2w46wZuU4mbhNvA4Uzdl",
-            username: "XX",
-            phone: "+84969143732",
+            username: "UserA",
+            phone: "+84101143002",
             isAdmin: false)
             .toJson());
   }
@@ -70,11 +70,11 @@ class _MyHomePageState extends State<MyHomePage> {
     await platform.invokeMethod(
         "openChatWithUser",
         NetAloUser(
-            id: "281474977755108",
-            token: "9a0c2c258c4edb30ce63fa4c56070a681464e5d8",
+            id: "3940649674873367",
+            token: "",
             avatar: "a6hIg_MRfWKSPeAXkkxAjA6coypt1y6j1KtJAkbd9k_E2w46wZuU4mbhNvA4Uzdl",
-            username: "XX",
-            phone: "+84969143732",
+            username: "UserB",
+            phone: "+84101143001",
             isAdmin: false)
             .toJson());
   }
@@ -83,11 +83,11 @@ class _MyHomePageState extends State<MyHomePage> {
     await platform.invokeMethod(
         "openChatConversation",
         NetAloUser(
-            id: "281474977755108",
-            token: "9a0c2c258c4edb30ce63fa4c56070a681464e5d8",
+            id: "3940649674873367",
+            token: "",
             avatar: "a6hIg_MRfWKSPeAXkkxAjA6coypt1y6j1KtJAkbd9k_E2w46wZuU4mbhNvA4Uzdl",
-            username: "XX",
-            phone: "+84969143732",
+            username: "UserB",
+            phone: "+84101143001",
             isAdmin: false)
             .toJson());
   }
