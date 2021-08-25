@@ -10,8 +10,8 @@ struct NetAloSDKConfig {
     let accountKey: String
     let appGroupIdentifier: String
     
-    static let dev = NetAloSDKConfig(env: .testing, appId: 14, appKey: "87XuVRwP71uljnlK3pdxKhWTvPQEXCJC", accountKey: "87XuVRwP71uljnlK3pdxKhWTvPQEXCJC", appGroupIdentifier: "group.com.xutest04")
-    static let prod = NetAloSDKConfig(env: .production, appId: 14, appKey: "87XuVRwP71uljnlK3pdxKhWTvPQEXCJC", accountKey: "87XuVRwP71uljnlK3pdxKhWTvPQEXCJC", appGroupIdentifier: "group.vn.netacom.lomo")
+    static let dev = NetAloSDKConfig(env: .testing, appId: 14, appKey: "87XuVRwP71uljnlK3pdxKhWTvPQEXCJC", accountKey: "87XuVRwP71uljnlK3pdxKhWTvPQEXCJC", appGroupIdentifier: "group.vn.netacom.netalo-dev")
+    static let prod = NetAloSDKConfig(env: .production, appId: 14, appKey: "87XuVRwP71uljnlK3pdxKhWTvPQEXCJC", accountKey: "87XuVRwP71uljnlK3pdxKhWTvPQEXCJC", appGroupIdentifier: "group.vn.netacom.netalo-dev")
 }
 
 

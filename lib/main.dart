@@ -58,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
         "setNetaloUser",
         NetAloUser(
             id: "3940649674873365",
-            token: "88087fd66bbd63bc0c4ab21ee59b7421a9409af1",
+            token: "e61754c0a70409ef59aeaadd5643bb177bf883ce",
             avatar: "a6hIg_MRfWKSPeAXkkxAjA6coypt1y6j1KtJAkbd9k_E2w46wZuU4mbhNvA4Uzdl",
             username: "UserA",
             phone: "+84101143002",

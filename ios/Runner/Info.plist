@@ -22,38 +22,39 @@
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-    <key>NSCalendarsUsageDescription</key>
-    <string>Allow application to access your calendar to better support you</string>
-    <key>NSCameraUsageDescription</key>
-    <string>Allow application to access your library for your request update avatar in profile.</string>
-    <key>NSContactsUsageDescription</key>
-    <string>Allow application to access your contacts list to allow you to connect with your friends.</string>
-    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-    <string>Allow application to access your location to accurately show your distance.</string>
-    <key>NSLocationAlwaysUsageDescription</key>
-    <string>Allow application to access your location to accurately show your distance.</string>
-    <key>NSLocationWhenInUseUsageDescription</key>
-    <string>Allow application to access your location to accurately show your distance.</string>
-    <key>NSMicrophoneUsageDescription</key>
-    <string>Allow application to access your recorder for making calls and sending voice messages.</string>
-    <key>NSPhotoLibraryAddUsageDescription</key>
-    <string>Allow application add image download from application to library.</string>
-    <key>NSPhotoLibraryUsageDescription</key>
-    <string>Allow application to access your gallery to update the required avatar in the profile.</string>
-    <key>NSUserActivityTypes</key>
-    <array>
-        <string>INStartAudioCallIntent</string>
-        <string>INStartVideoCallIntent</string>
-    </array>
-    <key>NSUserTrackingUsageDescription</key>
-    <string>The data are used to enhance users' experience, improve features or fix bugs on app</string>
-    <key>UIBackgroundModes</key>
-    <array>
-        <string>audio</string>
-        <string>fetch</string>
-        <string>remote-notification</string>
-        <string>voip</string>
-    </array>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Allow application to access your calendar to better support you</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Allow application to access your library for your request update avatar in profile.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Allow application to access your contacts list to allow you to connect with your friends.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Allow application to access your location to accurately show your distance.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Allow application to access your location to accurately show your distance.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Allow application to access your location to accurately show your distance.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Allow application to access your recorder for making calls and sending voice messages.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Allow application add image download from application to library.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Allow application to access your gallery to update the required avatar in the profile.</string>
+	<key>NSUserActivityTypes</key>
+	<array>
+		<string>INStartAudioCallIntent</string>
+		<string>INStartVideoCallIntent</string>
+	</array>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>The data are used to enhance users' experience, improve features or fix bugs on app</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>fetch</string>
+		<string>location</string>
+		<string>remote-notification</string>
+		<string>voip</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
