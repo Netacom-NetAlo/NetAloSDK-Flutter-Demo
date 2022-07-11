@@ -1,0 +1,503 @@
+/*
+  Localizable.strings
+  Netalo
+
+  Created by Tran Phong on 8/3/20.
+  Copyright © 2020 'Netalo'. All rights reserved.
+*/
+
+/* Audio recorder */
+
+"maximum voice message length" = "Đoạn ghi âm tối đa 1 phút";
+"Stop recording" = "Dừng ghi âm";
+"Record file too short" = "File ghi âm quá ngắn.";
+
+/* Button's titles */
+
+"Cancel" = "Hủy";
+"Send" = "Gửi";
+"Create group failed" = "Tạo nhóm thất bại";
+"Message" = "Tin nhắn";
+"View info" = "Xem thông tin";
+"Function under development" = "Tính năng đang phát triển";
+"Record permission denied" = "Bạn đã từ chối quyền ghi âm. Vui lòng vào Cài đặt để cho phép.";
+"Message will be removed after" = "Tin nhắn sẽ bị xoá sau";
+"seconds" = "giây";
+"Reply" = "Trả lời";
+"Copy" = "Sao chép";
+"Share" = "Chia sẻ";
+"Delete" = "Xóa";
+"Info" = "Thông tin";
+"Edit" = "Chỉnh sửa";
+"Edit info" = "Chỉnh sửa thông tin";
+"Search in conversation" = "Tìm kiếm trong cuộc trò chuyện";
+"Add members" = "Thêm thành viên";
+"Share group link" = "Chia sẻ liên kết nhóm";
+"See all" = "Xem tất cả";
+"Hide" = "Ẩn";
+"Group owner" = "Trưởng nhóm";
+"Notifications" = "Thông báo";
+"Leave group" = "Rời nhóm";
+"Disband group" = "Giải tán nhóm";
+"Member list" = "Danh sách thành viên";
+"This is you" = "Đây là bạn.";
+"Create new group" = "Tạo nhóm mới";
+"Name the group" = "Đặt tên nhóm";
+"Search" = "Tìm kiếm";
+"You have no friends" = "Bạn chưa có người bạn nào";
+"Add friends from contact" = "Thêm bạn từ danh bạ";
+"Upload photo failed" = "Không thê thêm hình. Vui lòng thử lại sau.";
+"Create a group chat" = "Tạo nhóm trò chuyện";
+"Create a secret chat" = "Tạo cuộc trò chuyện bí mật";
+"Save info success" = "Lưu thông tin thành công";
+"Blocked list" = "Danh sách chặn";
+"Select new admin" = "Chọn trưởng nhóm mới";
+"Save info" = "Lưu thông tin";
+"Phone number" = "Số điện thoại";
+"Create group" = "Tạo nhóm";
+"Start normal chat" = "Bắt đầu cuộc trò chuyện thông thường";
+"Start secret chat" = "Bắt đầu cuộc trò chuyện bí mật";
+"Share contact" = "Chia sẻ danh bạ";
+"Block user" = "Chặn liên hệ";
+"Unblock user" = "Bỏ chặn";
+"Add contact" = "Thêm liên hệ";
+"Options" = "Tùy chọn";
+"Mark as read" = "Đánh dấu đã đọc";
+"Turn on notification" = "Bật thông báo";
+"Turn off notification" = "Tắt thông báo";
+"Pin conversation" = "Ghim cuộc trò chuyện";
+"Unpin conversation" = "Bỏ ghim cuộc trò chuyện";
+"Group ownership" = "Quyền trưởng nhóm";
+"Leave group alert message" = "Bạn đang là trưởng nhóm. Trước khi rời nhóm này, hãy chọn một trưởng nhóm mới thay thế cho bạn.";
+"Done" = "Xong";
+"Search contacts" = "Tìm kiếm liên hệ";
+"Owner" = "Trưởng nhóm";
+"New group" = "Nhóm mới";
+"Type group name" = "Nhập tên nhóm";
+"New message" = "Tin nhắn mới";
+"Group chat" = "Trò chuyện nhóm";
+"Select new owner" = "Chọn trưởng nhóm mới";
+"You are the owner of this group. Please select a new admin before leaving." = "Bạn đang là trưởng nhóm. Trước khi rời nhóm này, hãy chọn một trưởng nhóm mới thay thế cho bạn.";
+"Members (%@)" = "Thành viên (%@)";
+"%@ members" = "%@ thành viên";
+"Group's name" = "Tên nhóm";
+"New secret chat" = "Trò chuyện bí mật mới";
+"Share to" = "Chia sẻ đến";
+"Save photo success" = "Lưu ảnh thành công";
+"Save photo failed" = "Lưu ảnh thất bại";
+"Copied" = "Đã sao chép";
+"Block this person" = "Chặn người này";
+"Delete message failed, please try again later" = "Xóa tin nhắn thất bại, vui lòng thử lại sau";
+"Save video success" = "Lưu video thành công";
+"Save video failed" = "Lưu video thất bại";
+"Downloading video..." = "Đang tải video...";
+"Send video success" = "Gửi video thành công";
+
+/* Contact */
+
+"Contact" = "Danh bạ";
+"Invite friend" = "Mời bạn sử dụng";
+"Close" = "Đóng";
+"Recent contact" = "Liên hệ gần đây";
+"Recent searches" = "Tìm kiếm gần đây";
+"Search results" = "Kết quả tìm kiếm";
+"Delete all" = "Xóa hết";
+"Enter search information" = "Tìm kiếm cuộc trò chuyện và liên hệ";
+"Full name" = "Tên đại diện";
+"Confirm" = "Xác nhận";
+"Sort by name" = "Sắp xếp theo tên";
+"You have no contacts yet" = "Bạn chưa có liên hệ nào";
+"Can not create the group" = "Không thể tạo nhóm";
+"Save information" = "Lưu thông tin";
+"Edit information" = "Sửa thông tin";
+"Edit contact success" = "Sửa danh bạ thành công";
+"Please enter correct phone number" = "Mời nhập đầy đủ số điện thoại";
+"Yourself" = "Là bạn";
+"You have chatted with this contact before, do you want to continue chatting or not?" = "Bạn đã chat với liên hệ này trước đó, bạn có muốn tiếp tục chat không?";
+"Reject" = "Từ chối";
+"Chat now" = "Chat ngay";
+"Do you want to chat with this person?" = "Bạn có muốn chat với người này?";
+"Invalid ID" = "ID không tồn tại";
+"Hey, I'm using NetAlo to chat. Join me! Download it here %@" = "Tôi đang sử dụng ứng dụng NetAlo để trò chuyện. Tải ứng dụng tại %@";
+"Unable to add image, please try again!" = "Không thể thêm hình, vui lòng thử lại sau!";
+"No contact" = "Không có liên hệ";
+"This phone number has not enabled NetAlo, Do you want to invite this person to use NetAlo?" = "Số điện thoại này chưa kích hoạt NetAlo. Mời liên hệ này sử dụng NetAlo nhé?";
+"From your phone" = "Từ số điện thoại";
+"Who have not used the app" = "Người này chưa sử dụng NetAlo";
+"Invited to use the app now" = "Mời sử dụng NetAlo nhé";
+"Please enter correct name" = "Vui lòng nhập đầy đủ tên";
+"Online %d days ago" = "Truy cập cách đây %d ngày";
+"Online %d hours ago" = "Truy cập cách đây %d giờ";
+"Online %d minutes ago" = "Truy cập cách đây %d phút";
+"Online %d seconds ago" = "Truy cập cách đây %d giây";
+"Sort by" = "Sắp xếp theo";
+"Name" = "Tên";
+"Last seen time" = "Thời gian truy cập";
+"Only invite up to 20 friends" = "Chỉ mời tối đa 20 người bạn";
+"Add" = "Thêm ";
+
+/* Edit Contact */
+
+"edit_contact_username" = "Tên đại diện";
+"edit_contact_delete" = "Xoá liên hệ";
+"edit_contact_not_found_with_%@" = "Không tìm thấy danh bạ có tên = %@";
+
+/* Delete Contact Alert */
+
+"delete_contact_alert_description_%@" = "Bạn có muốn xoá liên hệ với %@?";
+
+/* Chat */
+
+"member" = "thành viên";
+"members" = "thành viên";
+"Write a message" = "Nhập tin nhắn";
+"created this group" = "đã tạo nhóm";
+"Begin conversation with %@" = "Bắt đầu cuộc trò chuyện với %@";
+"Someone created this group" = "Ai đó đã tạo nhóm";
+"You created this group" = "Bạn đã tạo nhóm";
+"You invited %@ to join a secret chat" = "Bạn đã mời %@ tham gia vào cuộc trò chuyện bí mật";
+"%@ invited you to join a secret chat" = "%@ đã mời bạn tham gia vào cuộc trò chuyện bí mật";
+"left group" = "đã rời nhóm";
+"added" = "đã thêm";
+"deleted" = "đã xóa";
+"removed" = "đã xóa";
+"renamed group to" = "đã đổi tên nhóm thành";
+"updated group avatar" = "đã thay đổi ảnh đại diện nhóm";
+"changed the group image" = "đã thay đổi ảnh đại diện nhóm";
+"updated the group info" = "đã cập nhật thông tin của nhóm";
+"chose" = "đã chọn";
+"as new group admin" = "là trưởng nhóm mới";
+"Replied to %@" = "Trả lời cho %@";
+"Video call" = "Gọi video";
+"Audio call" = "Gọi thoại";
+"Missed" = "Bị nhỡ";
+"Cancelled" = "Đã hủy";
+"Message will be removed after %@ seconds" = "Tin nhắn sẽ bị xóa sau %@ giây";
+"No connection" = "Không có kết nối";
+"%@ created this group" = "%@ đã tạo nhóm này";
+"With %@" = "Với %@";
+"changed group avatar" = "đã thay đổi ảnh đại diện nhóm";
+"updated group info" = "đã cập nhật thông tin nhóm";
+"promoted" = "đã chọn";
+"to group owner" = "làm trưởng nhóm mới";
+"Recent conversations" = "Trò chuyện gần đây";
+"All contacts" = "Tất cả liên hệ";
+"Forward message" = "Tin nhắn chuyển tiếp";
+"%@ forwarded a message" = "%@ đã chuyển tiếp một tin nhắn";
+"You forwarded a message" = "Bạn đã chuyển tiếp một tin nhắn";
+"%@ forwarded a video" = "%@ đã chuyển tiếp một video";
+"You forwarded a video" = "Bạn đã chuyển tiếp một video";
+"Forward" = "Chuyển tiếp";
+"Remove for all" = "Xóa với tất cả mọi người";
+"Remove for you" = "Xóa chỉ mình tôi";
+"Message has been removed" = "Tin nhắn đã bị xóa";
+"Images & Videos" = "Hình ảnh & Video";
+"Documents" = "Tài liệu";
+"Contacts" = "Danh bạ";
+"Maximum file size: 250MB" = "Kích thước file tối đa: 250MB";
+"Send file failed.\nPlease try again later." = "Gửi file thất bại.\nVui lòng thử lại sau.";
+"%@ sent an attachment" = "%@ đã gửi một file đính kèm";
+"Downloading file" = "Đang tải tệp";
+"Videos" = "Videos";
+"No images was sent" = "Không có ảnh nào được gửi";
+"No videos was sent" = "Không có video nào được gửi";
+"No files was sent" = "Không có file nào được gửi";
+"Send file" = "Gửi file";
+"Off" = "Tắt";
+"Send photo success" = "Gửi ảnh thành công";
+"Send video failed.\nPlease try again later." = "Gửi video thất bại.\nVui lòng thử lại sau.";
+"Send photos failed.\nPlease try again later." = "Gửi ảnh thất bại.\nVui lòng thử lại sau.";
+"Create group failed.\nPlease try again later." = "Tạo nhóm thất bại.\nVui lòng thử lại sau.";
+"phone_call" = "Gọi điện";
+"block_description" = "Hiện tại, bạn không thể gửi tin nhắn cho người này";
+"unblock_title_%@" = "Bạn đã chặn %@";
+"unblock_description" = "Bạn không thể gửi tin nhắn hoặc gọi cho liên hệ đã bị chặn";
+"report" = "Báo cáo";
+"%@ took a screenshot" = "%@ đã chụp ảnh màn hình";
+"Group's link copied" = "Đã sao chép đường dẫn nhóm";
+"Please contact group owner to create group's link" = "Vui lòng liên hệ trưởng nhóm để tạo đường dẫn cho nhóm";
+"Revoke link" = "Thu hồi liên kết";
+"Copy link" = "Sao chép liên kết";
+"Everyone can join your group through this link. You can revoke this link at any time" = "Mọi người có thể tham gia vào nhóm của bạn thông qua liên kết này. Bạn có thể thu hồi liên kết này bất cứ lúc nào.";
+"Join group failed" = "Tham gia nhóm không thành công";
+"Join" = "Tham gia";
+"Just now" = "Mới đây";
+"Invalid video url" = "Video URL không hợp lệ";
+"No results" = "Không có kết quả";
+"Create group's link" = "Tạo liên kết nhóm";
+"Please create group's link first" = "Vui lòng tạo liên kết nhóm trước";
+"%@ set message delete timer to" = "%@ đã đặt thời gian xóa tin nhắn là";
+"%@ turned off message delete timer" = "%@ đã tắt tự động xóa tin nhắn";
+"Change background for all" = "Đổi hình nền cho tất cả";
+"Blur" = "Làm mờ";
+"Change background" = "Đổi hình nền";
+"%@ updated background" = "%@ đã cập nhật hình nền";
+"%@ joined group with link" = "%@ đã tham gia nhóm bằng liên kết";
+"joined group with link" = "đã tham gia nhóm bằng liên kết";
+
+/* Conversation */
+
+"Conversation" = "Hội thoại";
+"No conversation" = "Bạn chưa có cuộc hội thoại nào";
+"New conversation" = "Bắt đầu cuộc hội thoại mới";
+"Error" = "Lỗi";
+"Could not leave conversation.\nPlease try again later." = "Không thể rời nhóm.\nVui lòng thử lại sau.";
+"Tapped pin conversation" = "Ghim cuộc hội thoại";
+"ID not valid." = "ID không hợp lệ.";
+"Could not create group" = "Không thể tạo nhóm";
+"No recent calls yet" = "Bạn chưa có cuộc hội thoại nào";
+"Get started with a new call" = "Bắt đầu cuộc hội thoại mới";
+"Call" = "Cuộc gọi";
+"Video" = "Video";
+"Voice message" = "Tin nhắn thoại";
+"Photos" = "Hình ảnh";
+"Images" = "hình ảnh";
+"Canceled voice call" = "Huỷ gọi thoại";
+"Image" = "Hình ảnh";
+"[ Image ]" = "[ Hình ảnh ]";
+"Start conversation" = "Bắt đầu cuộc trò chuyện";
+"You" = "Bạn";
+"Unknown" = "Ai đó";
+"%@ added %@" = "%@ đã thêm %@";
+"%@ removed %@" = "%@ đã xóa %@";
+"%@ renamed group to %@" = "%@ đã đổi tên nhóm thành %@";
+"%@ updated group avatar" = "%@ đã thay đổi ảnh đại diện nhóm";
+"%@ updated group info" = "%@ đã cập nhật thông tin nhóm";
+"%@ promoted %@ to group owner" = "%@ đã chọn %@ làm trưởng nhóm mới";
+"%@ left group" = "%@ đã rời nhóm";
+"%d days" = "%d ngày";
+"%d hours" = "%d giờ";
+"%d minutes" = "%d phút";
+"%d seconds" = "%d giây";
+"just now" = "mới gửi";
+"Camera of %@ was off" = "Máy ảnh của %@ đã tắt";
+"Connecting..." = "Đang kết nối...";
+"Call Failed" = "Gọi thất bại";
+"Call Ended" = "Kết thúc cuộc gọi";
+"User Busy" = "Người dùng đang trong cuộc gọi";
+"Ringing..." = "Đang đổ chuông...";
+"Are you sure you want to leave the group? After leaving the group, you will not read the message of this group" = "Bạn có chắc chắn là muốn rời nhóm không? Sau khi rời nhóm, bạn sẽ không đọc được tin của nhóm này";
+"Reaching..." = "Đang liên hệ...";
+"Record" = "Tin nhắn thoại";
+"First message" = "Bắt đầu cuộc trò chuyện";
+"End call" = "Kết thúc cuộc gọi";
+"Online" = "Đang trực tuyến";
+"Offline" = "Đang ngoại tuyến";
+"You can not answer this conversation" = "Bạn không thể trả lời cuộc hội thoại này";
+"Waiting for other to accept secret chat" = "Chờ đối phương chấp nhận trò chuyện bí mật ";
+"This group is no longer available." = "Nhóm này không còn khả dụng.";
+"Sticker" = "Tin nhắn nhãn dán";
+
+/* History Call */
+
+"All" = "Tất cả";
+"Missed call" = "Cuộc gọi nhỡ";
+"Call logs" = "Cuộc gọi";
+"New call" = "Cuộc gọi mới";
+"Search call" = "Nhập thông tin tìm kiếm";
+"Voice call" = "Gọi thoại";
+"Missed video" = "Gọi video bị nhỡ";
+"Missed voice" = "Gọi thoại bị nhỡ";
+"Canceled video" = "Gọi video bị huỷ";
+"Canceled voice" = "Gọi thoại bị huỷ";
+"Incoming video call" = "Cuộc gọi video đến";
+"Outgoing video call" = "Cuộc gọi video đi";
+"Incoming voice call" = "Cuộc gọi thoại đến";
+"Outgoing voice call" = "Cuộc gọi thoại đi";
+"No call" = "Bạn chưa có cuộc gọi nào";
+"Start new call" = "Bắt đầu cuộc gọi mới";
+"Could not delete call.\nPlease try again later." = "Không thể xoá cuộc gọi \n Vui lòng thử lại sau.";
+"New all" = "Cuộc gọi mới";
+
+/* Passport */
+
+"Continue" = "Tiếp tục";
+"Confirm OTP" = "Xác nhận OTP";
+"Please enter the OTP that was sent to your phone number " = "Vui lòng nhập OTP đã được gửi đến điện thoại của bạn ";
+"Resend code" = "Gửi lại mã";
+"Resend OTP" = "Gửi lại OTP";
+"Change phone number" = "Đổi số điện thoại";
+"Completing this step means you agree with the terms of use of NetAlo" = "Hoàn thành bước này nghĩa là bạn đồng ý với điều khoản sử dụng của NetAlo";
+"Notification" = "Thông báo";
+"OTP does not match, Please enter OTP again" = "OTP không trùng khớp, Vui lòng nhập lại";
+"OTP has expired, Please resend the OTP" = "OTP đã hết hiệu lực. Bạn có muốn gửi lại mã OTP?";
+"Update information" = "Cập nhật thông tin";
+"Skip" = "Bỏ qua";
+"terms of use" = "điều khoản";
+"Completing this step means you agree with " = "Hoàn thành bước này nghĩa là bạn đồng ý với ";
+" of NetAlo" = " sử dụng của NetAlo";
+"Resend code fail" = "Lỗi gửi lại mã";
+"Update fail \n Please update again" = "Cập nhật không thành công \n Mời cập nhập thông tin sau";
+"OTP send to     " = "Mã xác thực đã được gửi đến số điện thoại     ";
+"Please resend new code or input again" = "Vui lòng gửi lại mã code hoặc nhập lại";
+"Confirm now" = "Xác nhận ngay";
+"This phone number is already in the contacts list, do you want to chat now?" = "Số điện thoại này đã có ở trong danh bạ, bạn có muốn chat ngay?";
+"Deny" = "Từ chối";
+
+/* Call */
+
+"Cancel call" = "Huỷ cuộc gọi";
+
+/* Images Picker */
+
+"Choose album" = "Chọn album";
+"All photos" = "Tất cả ảnh";
+"Album" = "Album";
+"Recents" = "Gần đây";
+"Favorites" = "Mục ưa thích";
+"Live photos" = "Live photos";
+"Portrait" = "Chân dung";
+"Bursts" = "Chụp liên tục";
+"Time-lapse" = "Ảnh time-lapse";
+"Screenshots" = "Ảnh màn hình";
+"Slo-mo" = "Quay chậm";
+"Selfies" = "Ảnh selfie";
+"Choose Photo" = "Chọn ảnh";
+"%d of %d" = "%d của %d";
+"Save photo" = "Lưu ảnh";
+"Save video" = "Lưu video";
+"Photos Access" = "Quyền truy cập ảnh";
+"We need photos access to save this photo. Please enable in Settings" = "Chúng tôi cần quyền truy cập ảnh để lưu ảnh. Vui lòng bật trong Cài đặt.";
+"Other" = "Khác";
+"System error, please try again later" = "Lỗi hệ thống, vui lòng thử lại sau";
+"Wrong image format, please select another image" = "Hình ảnh sai định dạng, Vui lòng chọn ảnh khác";
+"Normal quality" = "Chất lượng bình thường";
+"High quality" = "Chất lượng cao";
+"Camera not available" = "Camera không khả dụng.";
+"Max media selections: %d" = "Bạn chỉ có thể chọn tối đa %d ảnh và video.";
+"We need photos access to send photo. Please enable in Settings" = "Chúng tôi cần quyền truy cập ảnh để gửi ảnh. Vui lòng bật trong Cài đặt.";
+"Maximum video size: 250MB" = "Kích thước video tối đa: 250MB";
+"Downloading video" = "Đang tải video";
+"Downloading audio record" = "Đang tải đoạn ghi âm";
+"Take a picture" = "Chụp ảnh";
+"Record video" = "Quay video";
+
+/* Account */
+
+"Account" = "Tài khoản";
+"Profile" = "Hồ sơ cá nhân";
+"Setting_noti" = "Cài đặt thông báo";
+"Block list" = "Danh sách chặn";
+"Question asked" = "Câu hỏi thường gặp";
+"Term of use" = "Điều khoản sử dụng";
+"Support" = "Hỗ trợ";
+"Logout" = "Đăng xuất";
+"Hidden messages" = "Tin nhắn đã ẩn";
+"Privacy and security" = "Quyền riêng tư và bảo mật";
+"Fullname" = "Tên đại diện";
+"Update now" = "Cập nhật ngay";
+"Enter your name" = "Nhập tên đại diện";
+"Enter your phone" = "Nhập số điện thoại";
+"Send email?" = "Gửi email?";
+"Please enter the missing information." = "Mời nhập đầy đủ thông tin.";
+"Language" = "Ngôn ngữ";
+"Notification settings" = "Cài đặt thông báo";
+"Frequently Asked Questions" = "Câu hỏi thường gặp";
+"Update" = "Cập nhật ngay";
+"Stranger" = "Người lạ";
+"Language code" = "Tiếng việt";
+"Yes" = "Đồng ý";
+"No" = "Từ chối";
+"Switch to video call" = "Bạn có muốn chuyển thành cuộc gọi video?";
+"OK" = "Đồng ý";
+"End-to-end Encrypted" = "Được mã hoá đầu cuối";
+"Ask question url" = "https://netalo.vn/support/vn/FAQs.html";
+"Term of use url" = "https://netalo.vn/support/vn/term.html";
+"account_referral_code_title" = "Hãy giới thiệu app cho bạn bè";
+"account_referral_code_sub_title" = "Nhập mã giới thiệu tại đây";
+
+/* Theme */
+
+"theme_title" = "Chủ đề";
+"theme_default_mode" = "Mặc định";
+"theme_dark_mode" = "Ban đêm";
+"theme_colors" = "Màu sắc";
+"theme_base_on_system_title" = "Tự động thay đổi theo hệ thống";
+"See more" = "Xem thêm";
+"Invite now" = "Mời ngay";
+"Save" = "Lưu";
+
+/* Referral */
+
+"referral_title" = "Bạn có mã giới thiệu?";
+"referral_sub_title" = "Hãy nhập mã giới thiệu của bạn bên đưới";
+"referral_placeholder" = "Nhập mã giới thiệu";
+"referral_verify" = "Xác minh mã của bạn";
+"referral_code_apply_successfully" = "Thành công";
+"referral_code_apply_failed" = "Mã không chính xác, mời bạn thử lại";
+"invite %d contacts" = "Mời %d liên hệ";
+
+/* Block alert */
+
+"block_alert_title_%@" = "Chặn %@?";
+"block_alert_message_%@" = "Bạn sẽ không thể nhắn tin hoặc gọi đến %@.";
+"block_alert_button" = "Chặn";
+"you are blocked" = "Bạn đã bị chặn";
+
+/* Unblock alert */
+
+"unblock_alert_title_%@" = "Bỏ chặn %@?";
+"unblock_alert_message_%@" = "Bạn sẽ nhận được nhắn tin hoặc cuộc gọi từ %@.";
+"unblock_alert_button" = "Bỏ chặn";
+
+/* Cannot Block alert */
+
+"cannot_block_message" = "Bạn không thể chặn người dùng này vì bạn đã bị chặn bởi họ";
+
+/* Block list */
+"block_list_title" = "Danh sách chặn";
+"block_list_block_user" = "Chặn người dùng";
+"block_list_description" = "Người bị chặn không thể gửi tin nhắn hay gọi điện thoại cho bạn";
+
+/* Add block contact list */
+
+"block_list_title" = "Danh sách chặn";
+"block_list_block_user" = "Chặn người dùng";
+"block_list_description" = "Người bị chặn sẽ không thể gửi tin nhắn hay gọi điện thoại cho bạn";
+"add_%d_block_contacts" = "Chặn %d liên hệ";
+
+/* Set timer alert */
+
+"Set timer" = "Đặt hẹn giờ";
+
+/* Notification */
+
+"You_missed_a_voice_call" = "Bạn đã bỏ lỡ một cuộc gọi thoại";
+"%@ just left the group" = "%@ vừa rời nhóm";
+"%@ just created the group" = "%@ vừa tạo nhóm";
+"You_missed_a_video_call" = "Bạn đã bỏ lỡ một cuộc gọi video";
+"Recording" = "Ghi âm";
+"selected" = "đã chọn";
+"as_new_admin" = "làm trưởng nhóm mới";
+"The_message_is_encrypted" = "Tin nhắn đã được mã hoá";
+"someone" = "ai đó";
+"Someone" = "Ai đó";
+"to" = "Đến ";
+"%@ has started the conversation" = "%@ đã bắt đầu cuộc trò chuyện";
+"request_new_secret_chat" = "Bạn có một yêu cầu bắt đầu trò chuyện bí mật!";
+"delete_secret_chat" = "Xóa cuộc trò chuyện bí mật";
+
+/* Location */
+"location"                      = "Vị trí";
+"Share location"                = "Chia sẻ vị trí:";
+"Live location"                 = "Hành trình trực tiếp";
+"Updated in real time"          = "Liên tục cập nhật khi bạn di chuyển";
+"Current location"              = "Vị trí hiện tại";
+"Share my current location"     = "Chia sẻ vị trí hiện tại của tôi";
+"Accurate to 65 metres"         = "Chính xác đến 65m";
+"for 15 minutes"                = "trong 15 phút";
+"for 1 hour"                    = "trong 1 giờ";
+"for 8 hours"                   = "trong 8 giờ";
+"title confirm live location"   = "Chia sẻ hành trình của bạn trong:";
+"Turn on your location"         = "Bật vị trí của bạn để sử dụng tính năng này";
+"Sharing live location"         = "Đang chia sẻ hành trình";
+"Constantly updated"            = "Cập nhật liên tục ";
+"Ended"                         = "Đã kết thúc";
+"Stop share live location"      = "Dừng chia sẻ hành trình";
+"Updated %d minute ago"         = "Cập nhật %d phút trước";
+"Updated %d hours ago"          = "Cập nhật %d giờ trước";
+"Just updated"                  = "Vừa mới cập nhật vị trí";
+"%@ stopped share live location" = "%@ đã dừng chia sẻ vị trí trực tiếp";
+"%@ is sharing live location" = "%@ đang chia sẻ vị trí trực tiếp";
+"If you’d like to share your Live Location with friends, NetAlo needs location access when the app is in background.\nPlease go to your device’s setting > Privacy > Location Service and set NetAlo to Always" = "Nếu bạn muốn chia sẻ vị trí hiện tại với bạn bè, NetAlo cần quyền truy cập vị trí khi ứng dụng chạy nền.\nVui lòng vào Cài đặt > Quyền riêng tư > Dịch vụ định vị và đặt NetAlo thành Luôn luôn";
+"Maximum share live location exceeded: %d" = "Đã đạt giới hạn chia sẻ vị trí trực tiếp: %d";
