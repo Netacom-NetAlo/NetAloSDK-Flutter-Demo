@@ -2,29 +2,29 @@ package com.netacom.flutter_sdk
 
 import android.os.Bundle
 import androidx.annotation.NonNull
-import com.netacom.base.chat.logger.Logger
-import com.netacom.full.ui.sdk.NetAloSDK
-import com.netacom.lite.config.EndPoint
-import com.netacom.lite.define.ErrorCodeDefine
-import com.netacom.lite.define.GalleryType
-import com.netacom.lite.define.NavigationDef
-import com.netacom.lite.define.SdkCodeDefine
-import com.netacom.lite.entity.ui.local.LocalFileModel
-import com.netacom.lite.entity.ui.user.NeUser
-import com.netacom.lite.network.model.response.SettingResponse
-import com.netacom.lite.sdk.SdkClickNotification
-import com.netacom.lite.sdk.SdkCustomChatReceive
-import com.netacom.lite.sdk.SdkCustomChatSend
-import com.netacom.lite.sdk.SdkStringSend
-import com.netacom.lite.util.CallbackResult
+import com.netacom.flutter_sdk.PlatformChannel
+import com.asia.sdkbase.logger.Logger
+import com.asia.sdkui.ui.sdk.NetAloSDK
+import com.asia.sdkcore.config.EndPoint
+import com.asia.sdkcore.define.ErrorCodeDefine
+import com.asia.sdkcore.define.GalleryType
+import com.asia.sdkcore.define.NavigationDef
+import com.asia.sdkcore.define.SdkCodeDefine
+import com.asia.sdkcore.entity.ui.local.LocalFileModel
+import com.asia.sdkcore.entity.ui.user.NeUser
+import com.asia.sdkcore.network.model.response.SettingResponse
+import com.asia.sdkcore.sdk.SdkClickNotification
+import com.asia.sdkcore.sdk.SdkCustomChatReceive
+import com.asia.sdkcore.sdk.SdkCustomChatSend
+import com.asia.sdkcore.sdk.SdkStringSend
+import com.asia.sdkcore.util.CallbackResult
 import io.flutter.embedding.android.FlutterActivity
 import io.flutter.embedding.engine.FlutterEngine
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugins.GeneratedPluginRegistrant
 import kotlinx.coroutines.*
-import kotlinx.coroutines.flow.collect
-import vn.netacom.lomo.callback.OnCheckFriendListener
+import com.netacom.flutter_sdk.callback.OnCheckFriendListener
 import java.util.concurrent.TimeUnit
 import kotlin.coroutines.CoroutineContext
 
@@ -107,9 +107,9 @@ class MainActivity : FlutterActivity(), CoroutineScope {
                             object : OnCheckFriendListener {
                                 override fun onChecked(isFriend: Boolean) {
                                     Logger.e("checkFriend: $isFriend")
-                                    if (isFriend && sdkCustomChat.hideCall) {
+                                    /*if (isFriend && sdkCustomChat.hideCall) {
                                         NetAloSDK.netAloEvent?.send(SdkCustomChatSend(hideCall = false))
-                                    }
+                                    }*/
                                 }
                             }
                         )
@@ -283,16 +283,15 @@ class MainActivity : FlutterActivity(), CoroutineScope {
     }
 
     private fun openChatWithUser(call: MethodCall, result: MethodChannel.Result) {
-        val target: HashMap<String, Any> = call.argument("target")!!
         NetAloSDK.openNetAloSDK(
             this,
             false,
             null,
             NeUser(
-                id = target["id"] as? Long ?: 0,
-                token = target["token"] as? String ?: "",
-                username = target["username"] as? String ?: "",
-                avatar = target["avatar"] as? String ?: ""
+                id = call.argument("id") as? Long ?: 0,
+                token = call.argument("token") as? String ?: "",
+                username = call.argument("username") ?: "",
+                avatar = call.argument("avatar") as? String ?: ""
             )
         )
         result.success(true)

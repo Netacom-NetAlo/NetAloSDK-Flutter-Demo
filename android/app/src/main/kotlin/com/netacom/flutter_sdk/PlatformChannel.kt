@@ -1,9 +1,9 @@
 package com.netacom.flutter_sdk
 
-import com.netacom.lite.entity.ui.user.NeUser
+import com.asia.sdkcore.entity.ui.user.NeUser
 import io.flutter.plugin.common.BinaryMessenger
 import io.flutter.plugin.common.MethodChannel
-import vn.netacom.lomo.callback.OnCheckFriendListener
+import com.netacom.flutter_sdk.callback.OnCheckFriendListener
 
 class PlatformChannel {
     private lateinit var sendChannel: MethodChannel
@@ -48,7 +48,7 @@ class PlatformChannel {
                 }
             }
 
-            override fun error(errorCode: String?, errorMessage: String?, errorDetails: Any?) {
+            override fun error(errorCode: String, errorMessage: String?, errorDetails: Any?) {
                 callBack.onChecked(false)
             }
 

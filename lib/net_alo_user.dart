@@ -1,7 +1,7 @@
 class NetAloUser {
   NetAloUser({this.id, this.token, this.username, this.avatar, this.phone, this.isAdmin});
 
-  String? id;
+  num? id;
   String? username;
   String? avatar;
   String? phone;
@@ -9,7 +9,7 @@ class NetAloUser {
   bool? isAdmin;
 
   factory NetAloUser.fromJson(Map<String, dynamic> json) => NetAloUser(
-        id: json["id"] ?? "",
+        id: json["id"] ?? 0,
         username: json["username"],
         avatar: json["avatar"] ?? "",
         phone: json["phone"],
