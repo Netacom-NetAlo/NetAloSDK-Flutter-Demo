@@ -9,61 +9,18 @@
 /* Begin PBXBuildFile section */
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
 		314B439C26D63C520050BAC9 /* MethodChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B439B26D63C520050BAC9 /* MethodChannel.swift */; };
-		314B43A026D63D890050BAC9 /* ContainNetaloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B439E26D63D890050BAC9 /* ContainNetaloViewController.swift */; };
-		314B43A126D63D890050BAC9 /* ContainChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B439F26D63D890050BAC9 /* ContainChatViewController.swift */; };
 		314B43AA26D64A3B0050BAC9 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43A926D64A3B0050BAC9 /* NotificationService.swift */; };
 		314B43AE26D64A3B0050BAC9 /* NotificationExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 314B43A726D64A3B0050BAC9 /* NotificationExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		314B43F326D64AC20050BAC9 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43BA26D64AC10050BAC9 /* Localization.swift */; };
-		314B43F426D64AC20050BAC9 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43BB26D64AC10050BAC9 /* String+Ext.swift */; };
-		314B43F526D64AC20050BAC9 /* RMMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43BD26D64AC10050BAC9 /* RMMessage.swift */; };
-		314B43F626D64AC20050BAC9 /* RMLocalContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43BE26D64AC10050BAC9 /* RMLocalContact.swift */; };
-		314B43F726D64AC20050BAC9 /* RMUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43BF26D64AC10050BAC9 /* RMUser.swift */; };
-		314B43F826D64AC20050BAC9 /* RMUserStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43C026D64AC10050BAC9 /* RMUserStatus.swift */; };
-		314B43F926D64AC20050BAC9 /* RMDraftConversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43C126D64AC10050BAC9 /* RMDraftConversation.swift */; };
-		314B43FA26D64AC20050BAC9 /* RMConversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43C226D64AC10050BAC9 /* RMConversation.swift */; };
-		314B43FB26D64AC20050BAC9 /* RMContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43C326D64AC10050BAC9 /* RMContact.swift */; };
-		314B43FC26D64AC20050BAC9 /* NetAloNotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43C426D64AC10050BAC9 /* NetAloNotificationService.swift */; };
-		314B43FD26D64AC20050BAC9 /* NotificationRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43C526D64AC10050BAC9 /* NotificationRepo.swift */; };
-		314B43FE26D64AC20050BAC9 /* NTAnswerCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43C726D64AC10050BAC9 /* NTAnswerCall.swift */; };
-		314B43FF26D64AC20050BAC9 /* NTSecretChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43C826D64AC10050BAC9 /* NTSecretChat.swift */; };
-		314B440026D64AC20050BAC9 /* NTGroupLinkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43C926D64AC10050BAC9 /* NTGroupLinkResponse.swift */; };
-		314B440126D64AC20050BAC9 /* NTMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43CA26D64AC10050BAC9 /* NTMessage.swift */; };
-		314B440226D64AC20050BAC9 /* NTCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43CB26D64AC10050BAC9 /* NTCall.swift */; };
-		314B440326D64AC20050BAC9 /* NTStartCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43CC26D64AC10050BAC9 /* NTStartCall.swift */; };
-		314B440426D64AC20050BAC9 /* NTAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43CD26D64AC10050BAC9 /* NTAudio.swift */; };
-		314B440526D64AC20050BAC9 /* NTCallEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43CE26D64AC10050BAC9 /* NTCallEvent.swift */; };
-		314B440626D64AC20050BAC9 /* NTIceSdp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43CF26D64AC10050BAC9 /* NTIceSdp.swift */; };
-		314B440726D64AC20050BAC9 /* NTIceCandidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43D026D64AC10050BAC9 /* NTIceCandidate.swift */; };
-		314B440826D64AC20050BAC9 /* NetaloDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43D126D64AC10050BAC9 /* NetaloDefines.swift */; };
-		314B440926D64AC20050BAC9 /* NTEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43D226D64AC10050BAC9 /* NTEvent.swift */; };
-		314B440A26D64AC20050BAC9 /* NTStopCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43D326D64AC10050BAC9 /* NTStopCall.swift */; };
-		314B440B26D64AC20050BAC9 /* NTBlockContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43D426D64AC10050BAC9 /* NTBlockContactList.swift */; };
-		314B440C26D64AC20050BAC9 /* NTLoginEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43D526D64AC10050BAC9 /* NTLoginEvent.swift */; };
-		314B440D26D64AC20050BAC9 /* NTChatBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43D626D64AC10050BAC9 /* NTChatBackground.swift */; };
-		314B440E26D64AC20050BAC9 /* NTGroupEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43D726D64AC10050BAC9 /* NTGroupEvent.swift */; };
-		314B440F26D64AC20050BAC9 /* NTUserStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43D826D64AC10050BAC9 /* NTUserStatus.swift */; };
-		314B441026D64AC20050BAC9 /* NTBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43D926D64AC10050BAC9 /* NTBlock.swift */; };
-		314B441126D64AC20050BAC9 /* NTConversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43DA26D64AC10050BAC9 /* NTConversation.swift */; };
-		314B441226D64AC20050BAC9 /* NetAloBuildConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43DB26D64AC10050BAC9 /* NetAloBuildConfig.swift */; };
-		314B441326D64AC20050BAC9 /* LocalRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43DC26D64AC10050BAC9 /* LocalRepo.swift */; };
-		314B441426D64AC20050BAC9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 314B43DE26D64AC10050BAC9 /* Localizable.strings */; };
-		314B441526D64AC20050BAC9 /* Conversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43E226D64AC10050BAC9 /* Conversation.swift */; };
-		314B441626D64AC20050BAC9 /* QBMessage+Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43E326D64AC10050BAC9 /* QBMessage+Notification.swift */; };
-		314B441726D64AC20050BAC9 /* RemoteMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43E426D64AC10050BAC9 /* RemoteMessage.swift */; };
-		314B441826D64AC20050BAC9 /* QBMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43E526D64AC10050BAC9 /* QBMessage.swift */; };
-		314B441926D64AC20050BAC9 /* RemoteStartSecretChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43E626D64AC10050BAC9 /* RemoteStartSecretChat.swift */; };
-		314B441A26D64AC20050BAC9 /* QBChatBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43E726D64AC10050BAC9 /* QBChatBackground.swift */; };
-		314B441B26D64AC20050BAC9 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43E826D64AC10050BAC9 /* Contact.swift */; };
-		314B441C26D64AC20050BAC9 /* XUserStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43E926D64AC10050BAC9 /* XUserStatus.swift */; };
 		314B441D26D64AC20050BAC9 /* BuildConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43EB26D64AC10050BAC9 /* BuildConfig.swift */; };
-		314B441E26D64AC20050BAC9 /* AppPrivate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B43ED26D64AC10050BAC9 /* AppPrivate.swift */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
-		46ED9F2CBCAE8A799A8E3278 /* Pods_NotificationExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4E73B221D5B796C55C09BC /* Pods_NotificationExtension.framework */; };
+		523C5B6A95C879718A8EF709 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 168FD3336B9D1583CCF150EA /* Pods_Runner.framework */; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
-		D7BCA4219F620BC5C0EEEE07 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F0E1410F3C70902B7070EF /* Pods_Runner.framework */; };
+		998BA486219B9E538BADF573 /* Pods_NotificationExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB9AB57AF41A9E396291F5E /* Pods_NotificationExtension.framework */; };
+		A5BAF25D2933AADE00BFFBE4 /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BAF25C2933AADE00BFFBE4 /* Injection.swift */; };
+		A5BAF2622933ABBD00BFFBE4 /* BuildConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BAF2612933ABBD00BFFBE4 /* BuildConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,67 +60,21 @@
 /* Begin PBXFileReference section */
 		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
+		168FD3336B9D1583CCF150EA /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EED6FFE96757484FCD655E7 /* Pods-NotificationExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationExtension.release.xcconfig"; path = "Target Support Files/Pods-NotificationExtension/Pods-NotificationExtension.release.xcconfig"; sourceTree = "<group>"; };
+		2F5D84FED23401408779D52B /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
 		314B439B26D63C520050BAC9 /* MethodChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MethodChannel.swift; sourceTree = "<group>"; };
-		314B439E26D63D890050BAC9 /* ContainNetaloViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainNetaloViewController.swift; sourceTree = "<group>"; };
-		314B439F26D63D890050BAC9 /* ContainChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainChatViewController.swift; sourceTree = "<group>"; };
-		314B43A226D649E40050BAC9 /* Runner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Runner.entitlements; sourceTree = "<group>"; };
 		314B43A726D64A3B0050BAC9 /* NotificationExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		314B43A926D64A3B0050BAC9 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		314B43AB26D64A3B0050BAC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		314B43B526D64A460050BAC9 /* NotificationExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationExtension.entitlements; sourceTree = "<group>"; };
-		314B43BA26D64AC10050BAC9 /* Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
-		314B43BB26D64AC10050BAC9 /* String+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
-		314B43BD26D64AC10050BAC9 /* RMMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMMessage.swift; sourceTree = "<group>"; };
-		314B43BE26D64AC10050BAC9 /* RMLocalContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMLocalContact.swift; sourceTree = "<group>"; };
-		314B43BF26D64AC10050BAC9 /* RMUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMUser.swift; sourceTree = "<group>"; };
-		314B43C026D64AC10050BAC9 /* RMUserStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMUserStatus.swift; sourceTree = "<group>"; };
-		314B43C126D64AC10050BAC9 /* RMDraftConversation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMDraftConversation.swift; sourceTree = "<group>"; };
-		314B43C226D64AC10050BAC9 /* RMConversation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMConversation.swift; sourceTree = "<group>"; };
-		314B43C326D64AC10050BAC9 /* RMContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMContact.swift; sourceTree = "<group>"; };
-		314B43C426D64AC10050BAC9 /* NetAloNotificationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetAloNotificationService.swift; sourceTree = "<group>"; };
-		314B43C526D64AC10050BAC9 /* NotificationRepo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationRepo.swift; sourceTree = "<group>"; };
-		314B43C726D64AC10050BAC9 /* NTAnswerCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTAnswerCall.swift; sourceTree = "<group>"; };
-		314B43C826D64AC10050BAC9 /* NTSecretChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTSecretChat.swift; sourceTree = "<group>"; };
-		314B43C926D64AC10050BAC9 /* NTGroupLinkResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTGroupLinkResponse.swift; sourceTree = "<group>"; };
-		314B43CA26D64AC10050BAC9 /* NTMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTMessage.swift; sourceTree = "<group>"; };
-		314B43CB26D64AC10050BAC9 /* NTCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTCall.swift; sourceTree = "<group>"; };
-		314B43CC26D64AC10050BAC9 /* NTStartCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTStartCall.swift; sourceTree = "<group>"; };
-		314B43CD26D64AC10050BAC9 /* NTAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTAudio.swift; sourceTree = "<group>"; };
-		314B43CE26D64AC10050BAC9 /* NTCallEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTCallEvent.swift; sourceTree = "<group>"; };
-		314B43CF26D64AC10050BAC9 /* NTIceSdp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTIceSdp.swift; sourceTree = "<group>"; };
-		314B43D026D64AC10050BAC9 /* NTIceCandidate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTIceCandidate.swift; sourceTree = "<group>"; };
-		314B43D126D64AC10050BAC9 /* NetaloDefines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetaloDefines.swift; sourceTree = "<group>"; };
-		314B43D226D64AC10050BAC9 /* NTEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTEvent.swift; sourceTree = "<group>"; };
-		314B43D326D64AC10050BAC9 /* NTStopCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTStopCall.swift; sourceTree = "<group>"; };
-		314B43D426D64AC10050BAC9 /* NTBlockContactList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTBlockContactList.swift; sourceTree = "<group>"; };
-		314B43D526D64AC10050BAC9 /* NTLoginEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTLoginEvent.swift; sourceTree = "<group>"; };
-		314B43D626D64AC10050BAC9 /* NTChatBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTChatBackground.swift; sourceTree = "<group>"; };
-		314B43D726D64AC10050BAC9 /* NTGroupEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTGroupEvent.swift; sourceTree = "<group>"; };
-		314B43D826D64AC10050BAC9 /* NTUserStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTUserStatus.swift; sourceTree = "<group>"; };
-		314B43D926D64AC10050BAC9 /* NTBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTBlock.swift; sourceTree = "<group>"; };
-		314B43DA26D64AC10050BAC9 /* NTConversation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTConversation.swift; sourceTree = "<group>"; };
-		314B43DB26D64AC10050BAC9 /* NetAloBuildConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetAloBuildConfig.swift; sourceTree = "<group>"; };
-		314B43DC26D64AC10050BAC9 /* LocalRepo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalRepo.swift; sourceTree = "<group>"; };
-		314B43DF26D64AC10050BAC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		314B43E026D64AC10050BAC9 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
-		314B43E226D64AC10050BAC9 /* Conversation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conversation.swift; sourceTree = "<group>"; };
-		314B43E326D64AC10050BAC9 /* QBMessage+Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "QBMessage+Notification.swift"; sourceTree = "<group>"; };
-		314B43E426D64AC10050BAC9 /* RemoteMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteMessage.swift; sourceTree = "<group>"; };
-		314B43E526D64AC10050BAC9 /* QBMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QBMessage.swift; sourceTree = "<group>"; };
-		314B43E626D64AC10050BAC9 /* RemoteStartSecretChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteStartSecretChat.swift; sourceTree = "<group>"; };
-		314B43E726D64AC10050BAC9 /* QBChatBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QBChatBackground.swift; sourceTree = "<group>"; };
-		314B43E826D64AC10050BAC9 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
-		314B43E926D64AC10050BAC9 /* XUserStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XUserStatus.swift; sourceTree = "<group>"; };
 		314B43EB26D64AC10050BAC9 /* BuildConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildConfig.swift; sourceTree = "<group>"; };
-		314B43ED26D64AC10050BAC9 /* AppPrivate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppPrivate.swift; sourceTree = "<group>"; };
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
-		40A13C732DD3AB3348BDD945 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
-		68F0E1410F3C70902B7070EF /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D9367F07D250BDF789E505E /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
 		74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
 		74858FAE1ED2DC5600515810 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AFA3C8E1D35360C0083082E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Flutter/Release.xcconfig; sourceTree = "<group>"; };
-		7EFB5B5A8F8D5D52E0CCE06F /* Pods-NotificationExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationExtension.release.xcconfig"; path = "Target Support Files/Pods-NotificationExtension/Pods-NotificationExtension.release.xcconfig"; sourceTree = "<group>"; };
-		891A7EFEB7B3D00F8775C083 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		897D24334F9211F024540138 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
 		9740EEB21CF90195004384FC /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = Flutter/Debug.xcconfig; sourceTree = "<group>"; };
 		9740EEB31CF90195004384FC /* Generated.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Generated.xcconfig; path = Flutter/Generated.xcconfig; sourceTree = "<group>"; };
 		97C146EE1CF9000F007C117D /* Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runner.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -171,10 +82,12 @@
 		97C146FD1CF9000F007C117D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97C147001CF9000F007C117D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97C147021CF9000F007C117D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9C566D451E98E6E251AEE55E /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
-		BA4E73B221D5B796C55C09BC /* Pods_NotificationExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D82B97BB27638771A39B8A0D /* Pods-NotificationExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationExtension.debug.xcconfig"; path = "Target Support Files/Pods-NotificationExtension/Pods-NotificationExtension.debug.xcconfig"; sourceTree = "<group>"; };
-		F56E23ACC892D963B3A6F3C5 /* Pods-NotificationExtension.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationExtension.profile.xcconfig"; path = "Target Support Files/Pods-NotificationExtension/Pods-NotificationExtension.profile.xcconfig"; sourceTree = "<group>"; };
+		A5BAF25C2933AADE00BFFBE4 /* Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injection.swift; sourceTree = "<group>"; };
+		A5BAF2602933ABBD00BFFBE4 /* Runner.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Runner.entitlements; sourceTree = "<group>"; };
+		A5BAF2612933ABBD00BFFBE4 /* BuildConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildConfig.swift; sourceTree = "<group>"; };
+		A87D3B66A57DE18DCF00A24D /* Pods-NotificationExtension.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationExtension.profile.xcconfig"; path = "Target Support Files/Pods-NotificationExtension/Pods-NotificationExtension.profile.xcconfig"; sourceTree = "<group>"; };
+		C34263973AFEE8F349D5AB52 /* Pods-NotificationExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationExtension.debug.xcconfig"; path = "Target Support Files/Pods-NotificationExtension/Pods-NotificationExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		FAB9AB57AF41A9E396291F5E /* Pods_NotificationExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46ED9F2CBCAE8A799A8E3278 /* Pods_NotificationExtension.framework in Frameworks */,
+				998BA486219B9E538BADF573 /* Pods_NotificationExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,130 +103,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7BCA4219F620BC5C0EEEE07 /* Pods_Runner.framework in Frameworks */,
+				523C5B6A95C879718A8EF709 /* Pods_Runner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		314B439D26D63D890050BAC9 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				314B439E26D63D890050BAC9 /* ContainNetaloViewController.swift */,
-				314B439F26D63D890050BAC9 /* ContainChatViewController.swift */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
 		314B43A826D64A3B0050BAC9 /* NotificationExtension */ = {
 			isa = PBXGroup;
 			children = (
-				314B43B826D64AC10050BAC9 /* NetAloNotificationService */,
-				314B43EA26D64AC10050BAC9 /* Production */,
+				A5BAF25B2933AA7700BFFBE4 /* Config */,
 				314B43B526D64A460050BAC9 /* NotificationExtension.entitlements */,
 				314B43A926D64A3B0050BAC9 /* NotificationService.swift */,
 				314B43AB26D64A3B0050BAC9 /* Info.plist */,
 			);
 			path = NotificationExtension;
-			sourceTree = "<group>";
-		};
-		314B43B826D64AC10050BAC9 /* NetAloNotificationService */ = {
-			isa = PBXGroup;
-			children = (
-				314B43B926D64AC10050BAC9 /* Extension */,
-				314B43BC26D64AC10050BAC9 /* RMModels */,
-				314B43C426D64AC10050BAC9 /* NetAloNotificationService.swift */,
-				314B43C526D64AC10050BAC9 /* NotificationRepo.swift */,
-				314B43C626D64AC10050BAC9 /* NTModels */,
-				314B43DB26D64AC10050BAC9 /* NetAloBuildConfig.swift */,
-				314B43DC26D64AC10050BAC9 /* LocalRepo.swift */,
-				314B43DD26D64AC10050BAC9 /* LocalizationString */,
-				314B43E126D64AC10050BAC9 /* Model */,
-			);
-			path = NetAloNotificationService;
-			sourceTree = "<group>";
-		};
-		314B43B926D64AC10050BAC9 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				314B43BA26D64AC10050BAC9 /* Localization.swift */,
-				314B43BB26D64AC10050BAC9 /* String+Ext.swift */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		314B43BC26D64AC10050BAC9 /* RMModels */ = {
-			isa = PBXGroup;
-			children = (
-				314B43BD26D64AC10050BAC9 /* RMMessage.swift */,
-				314B43BE26D64AC10050BAC9 /* RMLocalContact.swift */,
-				314B43BF26D64AC10050BAC9 /* RMUser.swift */,
-				314B43C026D64AC10050BAC9 /* RMUserStatus.swift */,
-				314B43C126D64AC10050BAC9 /* RMDraftConversation.swift */,
-				314B43C226D64AC10050BAC9 /* RMConversation.swift */,
-				314B43C326D64AC10050BAC9 /* RMContact.swift */,
-			);
-			path = RMModels;
-			sourceTree = "<group>";
-		};
-		314B43C626D64AC10050BAC9 /* NTModels */ = {
-			isa = PBXGroup;
-			children = (
-				314B43C726D64AC10050BAC9 /* NTAnswerCall.swift */,
-				314B43C826D64AC10050BAC9 /* NTSecretChat.swift */,
-				314B43C926D64AC10050BAC9 /* NTGroupLinkResponse.swift */,
-				314B43CA26D64AC10050BAC9 /* NTMessage.swift */,
-				314B43CB26D64AC10050BAC9 /* NTCall.swift */,
-				314B43CC26D64AC10050BAC9 /* NTStartCall.swift */,
-				314B43CD26D64AC10050BAC9 /* NTAudio.swift */,
-				314B43CE26D64AC10050BAC9 /* NTCallEvent.swift */,
-				314B43CF26D64AC10050BAC9 /* NTIceSdp.swift */,
-				314B43D026D64AC10050BAC9 /* NTIceCandidate.swift */,
-				314B43D126D64AC10050BAC9 /* NetaloDefines.swift */,
-				314B43D226D64AC10050BAC9 /* NTEvent.swift */,
-				314B43D326D64AC10050BAC9 /* NTStopCall.swift */,
-				314B43D426D64AC10050BAC9 /* NTBlockContactList.swift */,
-				314B43D526D64AC10050BAC9 /* NTLoginEvent.swift */,
-				314B43D626D64AC10050BAC9 /* NTChatBackground.swift */,
-				314B43D726D64AC10050BAC9 /* NTGroupEvent.swift */,
-				314B43D826D64AC10050BAC9 /* NTUserStatus.swift */,
-				314B43D926D64AC10050BAC9 /* NTBlock.swift */,
-				314B43DA26D64AC10050BAC9 /* NTConversation.swift */,
-			);
-			path = NTModels;
-			sourceTree = "<group>";
-		};
-		314B43DD26D64AC10050BAC9 /* LocalizationString */ = {
-			isa = PBXGroup;
-			children = (
-				314B43DE26D64AC10050BAC9 /* Localizable.strings */,
-			);
-			path = LocalizationString;
-			sourceTree = "<group>";
-		};
-		314B43E126D64AC10050BAC9 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				314B43E226D64AC10050BAC9 /* Conversation.swift */,
-				314B43E326D64AC10050BAC9 /* QBMessage+Notification.swift */,
-				314B43E426D64AC10050BAC9 /* RemoteMessage.swift */,
-				314B43E526D64AC10050BAC9 /* QBMessage.swift */,
-				314B43E626D64AC10050BAC9 /* RemoteStartSecretChat.swift */,
-				314B43E726D64AC10050BAC9 /* QBChatBackground.swift */,
-				314B43E826D64AC10050BAC9 /* Contact.swift */,
-				314B43E926D64AC10050BAC9 /* XUserStatus.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		314B43EA26D64AC10050BAC9 /* Production */ = {
-			isa = PBXGroup;
-			children = (
-				314B43EB26D64AC10050BAC9 /* BuildConfig.swift */,
-				314B43ED26D64AC10050BAC9 /* AppPrivate.swift */,
-			);
-			path = Production;
 			sourceTree = "<group>";
 		};
 		9740EEB11CF90186004384FC /* Flutter */ = {
@@ -335,7 +140,7 @@
 				314B43A826D64A3B0050BAC9 /* NotificationExtension */,
 				97C146EF1CF9000F007C117D /* Products */,
 				E2E1BB0774BA9A7386CE6C1B /* Pods */,
-				F2CCF6B3E36E498CDB459A39 /* Frameworks */,
+				D98C9F81F7C7ADBD69884775 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -351,8 +156,7 @@
 		97C146F01CF9000F007C117D /* Runner */ = {
 			isa = PBXGroup;
 			children = (
-				314B43A226D649E40050BAC9 /* Runner.entitlements */,
-				314B439D26D63D890050BAC9 /* ViewControllers */,
+				A5BAF25E2933ABBD00BFFBE4 /* Envs */,
 				314B439B26D63C520050BAC9 /* MethodChannel.swift */,
 				97C146FA1CF9000F007C117D /* Main.storyboard */,
 				97C146FD1CF9000F007C117D /* Assets.xcassets */,
@@ -366,26 +170,52 @@
 			path = Runner;
 			sourceTree = "<group>";
 		};
+		A5BAF25B2933AA7700BFFBE4 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				314B43EB26D64AC10050BAC9 /* BuildConfig.swift */,
+				A5BAF25C2933AADE00BFFBE4 /* Injection.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		A5BAF25E2933ABBD00BFFBE4 /* Envs */ = {
+			isa = PBXGroup;
+			children = (
+				A5BAF25F2933ABBD00BFFBE4 /* Prod */,
+			);
+			path = Envs;
+			sourceTree = "<group>";
+		};
+		A5BAF25F2933ABBD00BFFBE4 /* Prod */ = {
+			isa = PBXGroup;
+			children = (
+				A5BAF2602933ABBD00BFFBE4 /* Runner.entitlements */,
+				A5BAF2612933ABBD00BFFBE4 /* BuildConfig.swift */,
+			);
+			path = Prod;
+			sourceTree = "<group>";
+		};
+		D98C9F81F7C7ADBD69884775 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAB9AB57AF41A9E396291F5E /* Pods_NotificationExtension.framework */,
+				168FD3336B9D1583CCF150EA /* Pods_Runner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E2E1BB0774BA9A7386CE6C1B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				891A7EFEB7B3D00F8775C083 /* Pods-Runner.debug.xcconfig */,
-				40A13C732DD3AB3348BDD945 /* Pods-Runner.release.xcconfig */,
-				9C566D451E98E6E251AEE55E /* Pods-Runner.profile.xcconfig */,
-				D82B97BB27638771A39B8A0D /* Pods-NotificationExtension.debug.xcconfig */,
-				7EFB5B5A8F8D5D52E0CCE06F /* Pods-NotificationExtension.release.xcconfig */,
-				F56E23ACC892D963B3A6F3C5 /* Pods-NotificationExtension.profile.xcconfig */,
+				C34263973AFEE8F349D5AB52 /* Pods-NotificationExtension.debug.xcconfig */,
+				1EED6FFE96757484FCD655E7 /* Pods-NotificationExtension.release.xcconfig */,
+				A87D3B66A57DE18DCF00A24D /* Pods-NotificationExtension.profile.xcconfig */,
+				3D9367F07D250BDF789E505E /* Pods-Runner.debug.xcconfig */,
+				897D24334F9211F024540138 /* Pods-Runner.release.xcconfig */,
+				2F5D84FED23401408779D52B /* Pods-Runner.profile.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		F2CCF6B3E36E498CDB459A39 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				68F0E1410F3C70902B7070EF /* Pods_Runner.framework */,
-				BA4E73B221D5B796C55C09BC /* Pods_NotificationExtension.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -395,7 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 314B43AF26D64A3B0050BAC9 /* Build configuration list for PBXNativeTarget "NotificationExtension" */;
 			buildPhases = (
-				658FF59259AE1299C4C7BF2E /* [CP] Check Pods Manifest.lock */,
+				575E9FB5781561D2246BAC07 /* [CP] Check Pods Manifest.lock */,
 				314B43A326D64A3B0050BAC9 /* Sources */,
 				314B43A426D64A3B0050BAC9 /* Frameworks */,
 				314B43A526D64A3B0050BAC9 /* Resources */,
@@ -413,15 +243,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97C147051CF9000F007C117D /* Build configuration list for PBXNativeTarget "Runner" */;
 			buildPhases = (
-				F0364DA85A9478CCDAD46470 /* [CP] Check Pods Manifest.lock */,
+				4E96ACA8EFE2BAB67FABE366 /* [CP] Check Pods Manifest.lock */,
 				9740EEB61CF901F6004384FC /* Run Script */,
 				97C146EA1CF9000F007C117D /* Sources */,
 				97C146EB1CF9000F007C117D /* Frameworks */,
 				97C146EC1CF9000F007C117D /* Resources */,
 				9705A1C41CF9048500538489 /* Embed Frameworks */,
 				3B06AD1E1E4923F5004D2608 /* Thin Binary */,
-				0DB137FB57F88B3937EE158F /* [CP] Embed Pods Frameworks */,
 				314B43B326D64A3B0050BAC9 /* Embed App Extensions */,
+				F8901FE0A4883ECD089BFB58 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -440,7 +270,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1300;
 				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					314B43A626D64A3B0050BAC9 = {
@@ -477,7 +307,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				314B441426D64AC20050BAC9 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,23 +324,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0DB137FB57F88B3937EE158F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3B06AD1E1E4923F5004D2608 /* Thin Binary */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -526,7 +338,29 @@
 			shellPath = /bin/sh;
 			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed_and_thin";
 		};
-		658FF59259AE1299C4C7BF2E /* [CP] Check Pods Manifest.lock */ = {
+		4E96ACA8EFE2BAB67FABE366 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Runner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		575E9FB5781561D2246BAC07 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -562,26 +396,21 @@
 			shellPath = /bin/sh;
 			shellScript = "/bin/sh \"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build";
 		};
-		F0364DA85A9478CCDAD46470 /* [CP] Check Pods Manifest.lock */ = {
+		F8901FE0A4883ECD089BFB58 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Runner-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -591,50 +420,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				314B43F426D64AC20050BAC9 /* String+Ext.swift in Sources */,
-				314B440126D64AC20050BAC9 /* NTMessage.swift in Sources */,
-				314B43FB26D64AC20050BAC9 /* RMContact.swift in Sources */,
-				314B441226D64AC20050BAC9 /* NetAloBuildConfig.swift in Sources */,
-				314B441A26D64AC20050BAC9 /* QBChatBackground.swift in Sources */,
-				314B440726D64AC20050BAC9 /* NTIceCandidate.swift in Sources */,
-				314B43FD26D64AC20050BAC9 /* NotificationRepo.swift in Sources */,
-				314B440326D64AC20050BAC9 /* NTStartCall.swift in Sources */,
-				314B440626D64AC20050BAC9 /* NTIceSdp.swift in Sources */,
-				314B43FA26D64AC20050BAC9 /* RMConversation.swift in Sources */,
-				314B440826D64AC20050BAC9 /* NetaloDefines.swift in Sources */,
-				314B441B26D64AC20050BAC9 /* Contact.swift in Sources */,
-				314B440226D64AC20050BAC9 /* NTCall.swift in Sources */,
-				314B43F326D64AC20050BAC9 /* Localization.swift in Sources */,
-				314B440526D64AC20050BAC9 /* NTCallEvent.swift in Sources */,
-				314B441326D64AC20050BAC9 /* LocalRepo.swift in Sources */,
-				314B441126D64AC20050BAC9 /* NTConversation.swift in Sources */,
-				314B440926D64AC20050BAC9 /* NTEvent.swift in Sources */,
-				314B440026D64AC20050BAC9 /* NTGroupLinkResponse.swift in Sources */,
-				314B441C26D64AC20050BAC9 /* XUserStatus.swift in Sources */,
-				314B43FC26D64AC20050BAC9 /* NetAloNotificationService.swift in Sources */,
-				314B441526D64AC20050BAC9 /* Conversation.swift in Sources */,
-				314B43F526D64AC20050BAC9 /* RMMessage.swift in Sources */,
-				314B440F26D64AC20050BAC9 /* NTUserStatus.swift in Sources */,
-				314B440B26D64AC20050BAC9 /* NTBlockContactList.swift in Sources */,
-				314B441826D64AC20050BAC9 /* QBMessage.swift in Sources */,
-				314B440C26D64AC20050BAC9 /* NTLoginEvent.swift in Sources */,
-				314B441E26D64AC20050BAC9 /* AppPrivate.swift in Sources */,
-				314B440E26D64AC20050BAC9 /* NTGroupEvent.swift in Sources */,
-				314B441026D64AC20050BAC9 /* NTBlock.swift in Sources */,
-				314B43F826D64AC20050BAC9 /* RMUserStatus.swift in Sources */,
-				314B43F726D64AC20050BAC9 /* RMUser.swift in Sources */,
-				314B440A26D64AC20050BAC9 /* NTStopCall.swift in Sources */,
-				314B43F626D64AC20050BAC9 /* RMLocalContact.swift in Sources */,
+				A5BAF25D2933AADE00BFFBE4 /* Injection.swift in Sources */,
 				314B441D26D64AC20050BAC9 /* BuildConfig.swift in Sources */,
 				314B43AA26D64A3B0050BAC9 /* NotificationService.swift in Sources */,
-				314B440D26D64AC20050BAC9 /* NTChatBackground.swift in Sources */,
-				314B441726D64AC20050BAC9 /* RemoteMessage.swift in Sources */,
-				314B43F926D64AC20050BAC9 /* RMDraftConversation.swift in Sources */,
-				314B440426D64AC20050BAC9 /* NTAudio.swift in Sources */,
-				314B441626D64AC20050BAC9 /* QBMessage+Notification.swift in Sources */,
-				314B43FE26D64AC20050BAC9 /* NTAnswerCall.swift in Sources */,
-				314B441926D64AC20050BAC9 /* RemoteStartSecretChat.swift in Sources */,
-				314B43FF26D64AC20050BAC9 /* NTSecretChat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,10 +430,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5BAF2622933ABBD00BFFBE4 /* BuildConfig.swift in Sources */,
 				74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */,
-				314B43A126D63D890050BAC9 /* ContainChatViewController.swift in Sources */,
 				314B439C26D63C520050BAC9 /* MethodChannel.swift in Sources */,
-				314B43A026D63D890050BAC9 /* ContainNetaloViewController.swift in Sources */,
 				1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -661,15 +448,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		314B43DE26D64AC10050BAC9 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				314B43DF26D64AC10050BAC9 /* en */,
-				314B43E026D64AC10050BAC9 /* vi */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
 		97C146FA1CF9000F007C117D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -730,7 +508,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
@@ -746,12 +524,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Runner/Envs/Prod/Runner.entitlements;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				DEVELOPMENT_TEAM = P843499K72;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -766,7 +544,7 @@
 		};
 		314B43B026D64A3B0050BAC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D82B97BB27638771A39B8A0D /* Pods-NotificationExtension.debug.xcconfig */;
+			baseConfigurationReference = C34263973AFEE8F349D5AB52 /* Pods-NotificationExtension.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -775,11 +553,11 @@
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_ENTITLEMENTS = NotificationExtension/NotificationExtension.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P843499K72;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = ZCBUP6ND93;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = NotificationExtension/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -787,8 +565,9 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "vn.netacom.netalo-dev.noti";
+				PRODUCT_BUNDLE_IDENTIFIER = "hura.asia-dev.noti";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "huradev-noti";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -799,7 +578,7 @@
 		};
 		314B43B126D64A3B0050BAC9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EFB5B5A8F8D5D52E0CCE06F /* Pods-NotificationExtension.release.xcconfig */;
+			baseConfigurationReference = 1EED6FFE96757484FCD655E7 /* Pods-NotificationExtension.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -812,7 +591,7 @@
 				DEVELOPMENT_TEAM = P843499K72;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = NotificationExtension/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -829,7 +608,7 @@
 		};
 		314B43B226D64A3B0050BAC9 /* Profile */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F56E23ACC892D963B3A6F3C5 /* Pods-NotificationExtension.profile.xcconfig */;
+			baseConfigurationReference = A87D3B66A57DE18DCF00A24D /* Pods-NotificationExtension.profile.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -842,7 +621,7 @@
 				DEVELOPMENT_TEAM = P843499K72;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = NotificationExtension/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -904,7 +683,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -953,7 +732,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
@@ -971,18 +750,20 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Runner/Envs/Prod/Runner.entitlements;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = P843499K72;
+				DEVELOPMENT_TEAM = ZCBUP6ND93;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "vn.netacom.netalo-dev";
+				PRODUCT_BUNDLE_IDENTIFIER = "hura.asia-dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = huradev;
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -997,12 +778,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Runner/Envs/Prod/Runner.entitlements;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
 				DEVELOPMENT_TEAM = P843499K72;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

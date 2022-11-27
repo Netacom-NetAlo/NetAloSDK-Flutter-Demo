@@ -23,34 +23,4 @@ class MethodChannel{
         receiveChannel = FlutterMethodChannel(name: receiveChannelName,
                                               binaryMessenger:messenger)
     }
-    
-    func sendResult(){
-        self.sendChannel?.invokeMethod("callListener", arguments: ["name":"hehe","age":1])
-    }
-    
-    func sendEventNetAloSessionExpire(){
-        self.sendChannel?.invokeMethod("netAloSessionExpire", arguments: [])
-    }
-    
-    func sendEventNetAloExit() {
-        self.sendChannel?.invokeMethod("netAloExit", arguments: [])
-    }
-    
-    func sendEventShowToast(message:String){
-        self.sendChannel?.invokeMethod("showToast", arguments: message)
-    }
-    
-    func sendEventDeepLink(url:String?){
-        self.sendChannel?.invokeMethod("sendEventDeepLink", arguments: url)
-    }
-    
-    func sendEventHandleLinkFromNetAlo(url:String?){
-        self.sendChannel?.invokeMethod("sendEventHandleLinkFromNetAlo", arguments: url)
-    }
-    
-    func sendEventCheckIsFriend(targetNetAloId: String = "0", completion: @escaping (Bool) -> ()){
-        self.sendChannel?.invokeMethod("checkIsFriend", arguments: targetNetAloId, result: {(r:Any?) -> () in
-            completion(r as? Bool ?? false)
-        })
-    }
 }

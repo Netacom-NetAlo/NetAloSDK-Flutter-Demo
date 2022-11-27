@@ -1,20 +1,24 @@
-class NetAloUser {
-  NetAloUser({this.id, this.token, this.username, this.avatar, this.phone, this.isAdmin});
+class NetaUser {
+  NetaUser({
+    this.id,
+    this.token,
+    this.username,
+    this.avatar,
+    this.phone,
+  });
 
-  num? id;
+  int? id;
   String? username;
   String? avatar;
   String? phone;
   String? token;
-  bool? isAdmin;
 
-  factory NetAloUser.fromJson(Map<String, dynamic> json) => NetAloUser(
-        id: json["id"] ?? 0,
+  factory NetaUser.fromJson(Map<String, dynamic> json) => NetaUser(
+        id: json["id"] ?? "",
         username: json["username"],
         avatar: json["avatar"] ?? "",
         phone: json["phone"],
         token: json["token"] ?? "",
-        isAdmin: json["isAdmin"] ?? "",
       );
 
   Map<String, dynamic> toJson() => {
@@ -23,8 +27,5 @@ class NetAloUser {
         "avatar": avatar ?? "",
         "phone": phone,
         "token": token ?? "",
-        "isAdmin": isAdmin ?? "",
       };
-
-  bool get isEnoughBasicInfo => id != null && phone != null;
 }

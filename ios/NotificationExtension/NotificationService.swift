@@ -2,53 +2,51 @@
 //  NotificationService.swift
 //  NotificationExtention
 //
-//  Created by Tran Phong on 7/2/20.
-//  Copyright © 2020 'Netalo'. All rights reserved.
+//  Created by Hoang Do on 11/17/22.
 //
 
 import UserNotifications
-import Localize_Swift
+import RxSwift
+import Resolver
+import NotificationComponent
 
 class NotificationService: UNNotificationServiceExtension {
 
     var contentHandler: ((UNNotificationContent) -> Void)?
     var bestAttemptContent: UNMutableNotificationContent?
     
-    private lazy var notificationService = NetAloNotificationService(environment: .dev, appGroupIdentifier: BuildConfig.default.appGroupIdentifier)
-
+    private var disposeBag = DisposeBag()
+    @LazyInjected private var notificationRepo: NotificationComponentImpl
+    
+    override init() {
+        super.init()
+        
+        notificationRepo.initialize()
+    }
+    
     override func didReceive(_ request: UNNotificationRequest, withContentHandler contentHandler: @escaping (UNNotificationContent) -> Void) {
         self.contentHandler = contentHandler
-        self.bestAttemptContent = (request.content.mutableCopy() as? UNMutableNotificationContent)
-        self.bestAttemptContent?.sound = UNNotificationSound(named: .init(rawValue: "notification_sound.wav"))
+        bestAttemptContent = (request.content.mutableCopy() as? UNMutableNotificationContent)
         
-        // Update localize to use shared user default
-        Localize.updateStandardStorage(identifier: BuildConfig.default.appGroupIdentifier)
-        
-        if let bestAttemptContent = self.bestAttemptContent {
-            notificationService.didReceive(bestAttemptContent) { (replaceContent) in
-                if let replaceContent = replaceContent {
-                    contentHandler(replaceContent)
-                } else {
-                    contentHandler(bestAttemptContent)
-                }
-            }
-        } else {
-            contentHandler(request.content)
+        if let bestAttemptContent = bestAttemptContent {
+            notificationRepo.replace(oldContent: bestAttemptContent)
+                .do(onSuccess: { (newContent) in
+                    contentHandler(newContent)
+                })
+                .subscribe()
+                .disposed(by: disposeBag)
         }
     }
     
     override func serviceExtensionTimeWillExpire() {
         // Called just before the extension will be terminated by the system.
         // Use this as an opportunity to deliver your "best attempt" at modified content, otherwise the original push payload will be used.
-//        if
-//            let contentHandler = contentHandler,
-//            let bestAttemptContent =  bestAttemptContent {
-//            
-//            if let remoteMessage = self.getRemoteMessageFromPayload(userInfo: bestAttemptContent.userInfo) {
-//                contentHandler(replaceNotification(receivedNotification: bestAttemptContent, remoteMessage: remoteMessage))
-//            } else {
-//                contentHandler(bestAttemptContent)
-//            }
-//        }
+        if let contentHandler = contentHandler, let bestAttemptContent =  bestAttemptContent {
+            contentHandler(
+                notificationRepo.expired(oldContent: bestAttemptContent)
+            )
+        }
     }
+
 }
+
